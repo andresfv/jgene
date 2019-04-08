@@ -1709,7 +1709,7 @@ public class JGene extends javax.swing.JFrame {
         PrintWriter pw = null;
         String ruta = "";
         try {
-            ruta = txtDirScript.getText() + nombreEntidad + "_i18n.sql";
+            ruta = txtDirScript.getText() + nombreEntidad + "I18n.sql";
             fichero = new FileWriter(ruta);
             pw = new PrintWriter(fichero);
             pw.println(i18n);
